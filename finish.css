@@ -15,4 +15,6 @@ html{scroll-padding-top:20px}
   @keyframes finishTitle{from{opacity:0;transform:translate3d(0,24px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
 }
 @media (max-width:600px){.finish-art{--finish-rot:0deg!important}}
+@media (max-width:600px){.device-scene.finish-art{transform:scale(.75);margin:70px -30px -30px;will-change:auto}}
 @media (prefers-reduced-motion:reduce){.finish-ready .finish-reveal,.finish-art{opacity:1!important;filter:none!important;transform:none!important;transition:none!important}}
+@media (prefers-reduced-motion:reduce) and (max-width:600px){.device-scene.finish-art{transform:scale(.75)!important}}
