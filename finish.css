@@ -17,4 +17,5 @@ html{scroll-padding-top:20px}
 @media (max-width:600px){.finish-art{--finish-rot:0deg!important}}
 @media (max-width:600px){.device-scene.finish-art{transform:scale(.75);margin:70px -30px -30px;will-change:auto}}
 @media (prefers-reduced-motion:reduce){.finish-ready .finish-reveal,.finish-art{opacity:1!important;filter:none!important;transform:none!important;transition:none!important}}
+.diagnostic-note{display:block;margin-top:12px;padding-top:12px;border-top:1px solid #9db1b0;color:#30474d;font-size:13px;line-height:1.55}
 @media (prefers-reduced-motion:reduce) and (max-width:600px){.device-scene.finish-art{transform:scale(.75)!important}}
